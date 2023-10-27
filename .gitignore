@@ -4,9 +4,10 @@
 /node_modules
 /.pnp
 .pnp.js
-
+/style-guide.md
+/guide-document.html
 # testing
-/coverage
+./coverage
 
 # production
 /build
