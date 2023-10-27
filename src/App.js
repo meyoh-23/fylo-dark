@@ -1,6 +1,7 @@
 import { Box, CssBaseline, ThemeProvider, createTheme,  } from "@mui/material";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
 
-import Navbar from "./components/Navbar";
 
 const theme = createTheme({
   breakpoints: {
@@ -15,7 +16,7 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: "hsl(218, 28%, 13%)",
+      main: "hsl(217, 28%, 15%)",
     },
     secondary: {
       main: "hsl(0, 0%, 100%)"
@@ -32,7 +33,8 @@ function App() {
     <ThemeProvider theme={theme}>
     <CssBaseline/>
     <Box bgcolor='primary.main'>
-      <Navbar/>
+      <Hero/>
+      <Features/>
     </Box>
     </ThemeProvider>
     </>
