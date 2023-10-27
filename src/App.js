@@ -2,6 +2,7 @@ import { Box, CssBaseline, ThemeProvider, createTheme,  } from "@mui/material";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
 import StayProductive from "./components/StayProductive";
+import Testimonials from "./components/Testimonials";
 
 
 const theme = createTheme({
@@ -37,6 +38,7 @@ function App() {
       <Hero/>
       <Features/>
       <StayProductive/>
+      <Testimonials/>
     </Box>
     </ThemeProvider>
     </>
