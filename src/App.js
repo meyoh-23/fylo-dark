@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import StayProductive from "./components/StayProductive";
 import Testimonials from "./components/Testimonials";
+import CallToAction from "./components/CallToAction";
+import Footer from "./components/Footer";
 
 
 const theme = createTheme({
@@ -36,10 +38,14 @@ function App() {
     <CssBaseline/>
     <Box bgcolor='primary.main'>
       <Hero/>
+      <Box variant="main">
       <Features/>
       <StayProductive/>
       <Testimonials/>
+      <CallToAction/>
+      </Box>
     </Box>
+    <Footer/>
     </ThemeProvider>
     </>
   );

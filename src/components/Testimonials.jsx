@@ -32,7 +32,7 @@ const Testimonials = () => {
             position: "absolute",
             left: {
                 xs: "15px",
-                md: "50px",
+                md: "70px",
             },
             top: "0",
             color: "hsl(176, 68%, 64%)"
