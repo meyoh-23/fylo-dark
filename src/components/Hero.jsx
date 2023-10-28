@@ -28,7 +28,8 @@ const Hero = () => {
             backgroundRepeat: "no-repeat",
             height: {
                 xs: "auto",
-                md:'150vh'
+                sm: "120vh",
+                md: "130vh",
             },
             width: "100vw",
             gap: 2,
@@ -53,12 +54,14 @@ const Hero = () => {
                     fontFamily: "'Raleway', sans-serif",
                     textAlign: "center",
                     justifyContent: "center",
+                    fontSize: "0.875rem",
+                    maxWidth: "200px",
                 }}>
                     All your files in one secure location, accessible anywhere.
                 </Typography>
                 <Typography variant="p"
                 sx={{
-                    color: "secondary.dark",
+                    color: "secondary.main",
                     fontFamily: "'Raleway', sans-serif",
                     textAlign: "center",
                     justifyContent: "center",

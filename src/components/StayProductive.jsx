@@ -47,10 +47,10 @@ const StayProductive = () => {
                         sx={{
                         maxWidth: {
                             xs: "auto",
-                            md: "240px",
+                            md: "150px",
                         },
                         color: "secondary.main",
-                        fontSize: "1.25rem",
+                        fontSize: "0.875rem",
                         fontWeight: "700",
                         fontFamily: "'Raleway', sans-serif",
                     }}
