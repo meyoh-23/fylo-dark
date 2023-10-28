@@ -25,6 +25,7 @@ const Testimonials = () => {
         pt: 2.5,
         position: "relative",
         zIndex: "90",
+        pb: 22
     }}
     >
         <Box 
@@ -36,7 +37,7 @@ const Testimonials = () => {
                 md: "70px",
             },
             top: "0",
-            color: "hsl(176, 68%, 64%)"
+            color: "hsl(176, 68%, 64%)",
         }}
         >
             <FormatQuoteRoundedIcon/>
@@ -55,7 +56,7 @@ const Testimonials = () => {
                     pb: 2,
                     background: "hsl(219, 30%, 18%)",
                     borderRadius: "5px",
-                    mb: 10,
+                    mb: 3,
                 }}
                 >
                     <Typography

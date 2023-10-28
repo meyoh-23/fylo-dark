@@ -12,10 +12,22 @@ const Footer = () => {
     return (
     <Box variant='footer' bgcolor='neutral.main'
     sx={{
-        py: 4.5,
+        pt: 24,
+        pb: 5,
         zIndex: "90",
+        px: {
+            xs: 2.25,
+            md: 5,
+        }
     }}
     >
+        <Box
+        sx={{
+            mb: 3,
+        }}
+        >
+            <img src={logo} alt="logo" style={{maxWidth: "100%", height: "auto"}}/>
+        </Box>
         <Box
         sx={{
             display: "flex",
@@ -23,16 +35,12 @@ const Footer = () => {
                 xs: "column",
                 md: "row",
             },
-            justifyContent: "space-between",
+            justifyContent: "space-around",
             alignItems: "flex-start",
-            mt:14,
-            gap: 4.5,
-            mx: {
-                xs: 2,
-                md: 4.5,
-            },
+            gap: 2.25,
         }}
-        ><Box sx={{
+        >
+            <Box sx={{
             display: "flex",
             flexDirection: {
                 xs: "column",
@@ -40,7 +48,7 @@ const Footer = () => {
             },
             justifyContent: "space-between",
             alignItems: "flex-start",
-            gap: 3.5,
+            gap: 4,
         }}>
                 <Box
                 sx={{
@@ -48,16 +56,13 @@ const Footer = () => {
                     flexDirection: "column",
                     justifyContent: "space-between",
                     alignItems: "flex-start",
-                    gap: 3,
                 }}
                 >
-                    <Box><img src={logo} alt="logo" style={{maxWidth: "100%", height: "auto"}}/></Box>
                     <Box sx={{
                         display: "flex",
                         justifyContent: "space-between",
-                        gap: 2.25,
                         alignItems: "flex-start",
-                        mx: 2,
+                        gap: 2
                     }}>
                         <Box color='secondary.main'>
                             <LocationOnIcon/>
@@ -68,6 +73,7 @@ const Footer = () => {
                             fontFamily: "'Open Sans', sans-serif",
                             fontSize: "0.875rem",
                             fontWeight: "400",
+                            maxWidth: "270px",
                         }}
                         >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
@@ -80,7 +86,6 @@ const Footer = () => {
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
-                    gap: 2,
                     color: "secondary.main"
                 }}
                 >
@@ -93,13 +98,17 @@ const Footer = () => {
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#about-us'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
                         >About Us
                         </Link>
@@ -107,43 +116,55 @@ const Footer = () => {
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#jobs'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
-                        >About Us
+                        > Jobs
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#press'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
-                        >About Us
+                        >Press
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#blog'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
-                        >About Us
+                        >Blog
                         </Link>
                     </ListItem>
                 </List>
@@ -153,62 +174,80 @@ const Footer = () => {
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#Contact Us'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
-                        >About Us
+                        >Contact Us
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#Terms'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
-                        >About Us
+                        >Terms
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link 
                         underline="none"
+                        href='#Privacy'
                         sx={{
                             color: "secondary.main",
                             fontFamily: "",
                             fontSize: "0.875rem",
                             fontWeight: "400",
                             textTransform: "capitalize",
-                            whiteSpace: "nowrap"
+                            whiteSpace: "nowrap",
+                            "&:hover": {
+                                fontWeight: "700",
+                            }
                         }}
-                        >About Us
+                        >Privacy
                         </Link>
                     </ListItem>
                 </List>
             </Box>
             <Box sx={{
-                display: "flex",
+                display: "grid",
+                placeContent: "center",
             }}>
-                <Box sx={{
+                <Box 
+                sx={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    justifyContent: "center",
                     alignItems: "center",
-                    color: "secondary.main",
                     gap: 2,
-                    maxWidth: '200px',
                     mx: "auto",
                 }}>
-                    <FacebookOutlinedIcon/>
-                    <TwitterIcon/>
-                    <InstagramIcon/>
+                    <Link href='#facebook-account' color='secondary.main'>
+                        <FacebookOutlinedIcon/>
+                        </Link>
+                        <Link href='#x-app-account' color='secondary.main'>
+                            <TwitterIcon/>
+                        </Link>
+                        <Link href='#instagram-account' color='secondary.main'>
+                            <InstagramIcon/>
+                    </Link>
                 </Box>
             </Box>
         </Box>

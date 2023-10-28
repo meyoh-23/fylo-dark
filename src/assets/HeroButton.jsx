@@ -14,7 +14,10 @@ const HeroButton = () => {
             whiteSpace: "nowrap",
             color: "secondary.main",
             px: "3rem",
-            py: "0.75rem"
+            py: "0.75rem",
+            "&:hover": {
+                background: 'hsl(176, 68%, 64%)',
+            }
         }}
         >
             Get Started
