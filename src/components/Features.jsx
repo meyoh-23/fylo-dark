@@ -54,7 +54,9 @@ const Features = () => {
                                 textAlign: "center",
                                 justifyContent: "center",
                                 color: "secondary.main",
-                                ontFamily: "'Raleway', sans-serif",
+                                fontFamily: "'Raleway', sans-serif",
+                                fontSize: "0.875rem",
+                                fontWeight: "700",
                             }}
                             >
                                 Access your files, anywhere
@@ -64,7 +66,7 @@ const Features = () => {
                             sx={{
                                 textAlign: "center",
                                 justifyContent: "center",
-                                color: "secondary.dark",
+                                color: "secondary.main",
                                 fontWeight: "400", 
                                 fontSize: '0.875rem',
                                 fontFamily: "'Raleway', sans-serif",
@@ -108,7 +110,9 @@ const Features = () => {
                                 textAlign: "center",
                                 justifyContent: "center",
                                 color: "secondary.main",
-                                ontFamily: "'Raleway', sans-serif",
+                                fontFamily: "'Raleway', sans-serif",
+                                fontSize: "0.875rem",
+                                fontWeight: "700",
                             }}
                             >
                                 Security you can trust
@@ -118,7 +122,7 @@ const Features = () => {
                             sx={{
                                 textAlign: "center",
                                 justifyContent: "center",
-                                color: "secondary.dark",
+                                color: "secondary.main",
                                 fontWeight: "400", 
                                 fontSize: '0.875rem',
                                 fontFamily: "'Raleway', sans-serif",
@@ -162,7 +166,9 @@ const Features = () => {
                                 textAlign: "center",
                                 justifyContent: "center",
                                 color: "secondary.main",
-                                ontFamily: "'Raleway', sans-serif",
+                                fontFamily: "'Raleway', sans-serif",
+                                fontSize: "0.875rem",
+                                fontWeight: "700",
                             }}
                             >
                                 eal-time collaboration
@@ -172,7 +178,7 @@ const Features = () => {
                             sx={{
                                 textAlign: "center",
                                 justifyContent: "center",
-                                color: "secondary.dark",
+                                color: "secondary.main",
                                 fontWeight: "400", 
                                 fontSize: '0.875rem',
                                 fontFamily: "'Raleway', sans-serif",
@@ -216,7 +222,9 @@ const Features = () => {
                                 textAlign: "center",
                                 justifyContent: "center",
                                 color: "secondary.main",
-                                ontFamily: "'Raleway', sans-serif",
+                                fontFamily: "'Raleway', sans-serif",
+                                fontSize: "0.875rem",
+                                fontWeight: "700",
                             }}
                             >
                                 Store any type of file
@@ -226,7 +234,7 @@ const Features = () => {
                             sx={{
                                 textAlign: "center",
                                 justifyContent: "center",
-                                color: "secondary.dark",
+                                color: "secondary.main",
                                 fontWeight: "400", 
                                 fontSize: '0.875rem',
                                 fontFamily: "'Raleway', sans-serif",
