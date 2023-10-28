@@ -1,6 +1,7 @@
 import { Avatar, Box, Typography } from "@mui/material";
 import testimonials from './../assets/data';
 import FormatQuoteRoundedIcon from '@mui/icons-material/FormatQuoteRounded';
+import CallToAction from "./CallToAction";
 
 
 const Testimonials = () => {
@@ -22,8 +23,8 @@ const Testimonials = () => {
             md: 9
         },
         pt: 2.5,
-        pb: 9,
         position: "relative",
+        zIndex: "90",
     }}
     >
         <Box 
@@ -54,6 +55,7 @@ const Testimonials = () => {
                     pb: 2,
                     background: "hsl(219, 30%, 18%)",
                     borderRadius: "5px",
+                    mb: 10,
                 }}
                 >
                     <Typography
@@ -97,6 +99,7 @@ const Testimonials = () => {
                 </Box>
             })
         }
+        <CallToAction/>
     </Box>
 )}
 

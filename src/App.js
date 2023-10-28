@@ -38,7 +38,7 @@ function App() {
     <CssBaseline/>
     <Box bgcolor='primary.main'>
       <Hero/>
-      <Box variant="main">
+      <Box variant="main" position='relative'>
       <Features/>
       <StayProductive/>
       <Testimonials/>

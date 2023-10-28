@@ -13,6 +13,7 @@ const Footer = () => {
     <Box variant='footer' bgcolor='neutral.main'
     sx={{
         py: 4.5,
+        zIndex: "90",
     }}
     >
         <Box
